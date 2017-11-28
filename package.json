@@ -4,6 +4,7 @@
   "description": "some testing with a tdd lib",
   "main": "index.js",
   "scripts": {
+    "lint" : "./node_modules/.bin/eslint src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/pblobp/js-tdd/issues"
   },
-  "homepage": "https://github.com/pblobp/js-tdd#readme"
+  "homepage": "https://github.com/pblobp/js-tdd#readme",
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
 }
