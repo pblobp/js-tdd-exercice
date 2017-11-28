@@ -1,0 +1,19 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "some testing with a tdd lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pblobp/js-tdd.git"
+  },
+  "author": "Pablo Boff Pigozzo <pblobp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pblobp/js-tdd/issues"
+  },
+  "homepage": "https://github.com/pblobp/js-tdd#readme"
+}
