@@ -4,22 +4,25 @@
   "description": "some testing with a tdd lib",
   "main": "index.js",
   "scripts": {
-    "lint" : "./node_modules/.bin/eslint src/*.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js",
+    "testtdd": "./node_modules/.bin/mocha tests/**/*.spec.js --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pblobp/js-tdd.git"
+    "url": "git+https://github.com/pblobp/js-tdd-exercice.git"
   },
   "author": "Pablo Boff Pigozzo <pblobp@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pblobp/js-tdd/issues"
+    "url": "https://github.com/pblobp/js-tdd-exercice/issues"
   },
-  "homepage": "https://github.com/pblobp/js-tdd#readme",
+  "homepage": "https://github.com/pblobp/js-tdd-exercice#readme",
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^4.12.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0"
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^4.0.1"
   }
 }
